@@ -12,6 +12,7 @@
 */
 
 
+//Route::resource('employee','EmployeeControler');
 Route::resource('employee','EmployeeControler');
 
 Auth::routes();
