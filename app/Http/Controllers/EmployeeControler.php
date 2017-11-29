@@ -14,7 +14,8 @@ class EmployeeControler extends Controller
      */
     public function index()
     {
-        //
+        $emps = Employee::all();
+        return view('employee.index')->with('Employees',$emps);
     }
 
     /**
@@ -25,6 +26,7 @@ class EmployeeControler extends Controller
     public function create()
     {
         return view("employee.create");
+
     }
 
     /**
@@ -61,7 +63,7 @@ class EmployeeControler extends Controller
         $emp->save();
 
         $request->session()->flash('success', 'Employee created successfully');
-
+        return redirect()->route('employee.index');
 
     }
 
