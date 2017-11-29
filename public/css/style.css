@@ -1,0 +1,49 @@
+.btn-h1-spacing
+{
+	margin-top:108px;
+}
+.form-spacing-top
+{
+	margin-top:10px;
+}
+.comment
+{
+	margin-bottom:45px;
+}
+.comment-header
+{
+	margin-bottom:45px;
+}
+.author-pic
+{
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius : 50%;
+}
+.author-name{
+	
+	float:left;
+	margin-left:15px;
+}
+
+.author-name>h4{
+	margin:5px 0px;
+}
+.author-time{
+	font-size:11px;
+	font-style:italic;
+	color:grey;
+}
+.comment-content
+{
+	clear:both;
+	margin-left:65px;
+	font-size:16px;
+	line-height:1.3em;
+}
+.comment-icon
+{
+	margin-right:15px;
+	
+}
