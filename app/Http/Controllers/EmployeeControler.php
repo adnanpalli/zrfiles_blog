@@ -44,7 +44,7 @@ class EmployeeControler extends Controller
         'date_of_birth' => 'required|date',
         'date_of_join' => 'required|date',
         'nationality' => 'required',
-        'contact_no' => 'required|integer',
+        'contact_no' => 'required',
         ]);
 
         $emp = new Employee();
