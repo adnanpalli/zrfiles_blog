@@ -14,7 +14,7 @@
 
 //Route::resource('employee','EmployeeControler');
 Route::resource('employee','EmployeeControler');
-
+Route::resource('pharmacy','PharmacyController');
 Auth::routes();
 
 Route::get('/home','HomeController@index');
